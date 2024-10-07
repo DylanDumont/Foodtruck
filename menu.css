@@ -1,0 +1,155 @@
+html, body {
+	text-align:justify;
+	font-family:verdana;
+	background-color: rgb(97, 97, 97);
+}
+
+	
+header {
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:150px;
+	width:100%;
+	background-color:black;
+	z-index:10;
+}
+	
+header li {
+	display:inline;
+	font-size:30px;
+	padding:100px;
+}
+
+header a {
+	color:white;
+	text-decoration:none;
+}
+
+header img {
+	width:120px;
+	height:120px;
+}
+
+nav {
+    float: left;
+	margin: 50px;
+	margin-top: 200px;
+    height: 1200px;
+	width:200px;
+	text-align:left;
+	padding:50px;
+	color: white;
+	font-size:30px;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+nav a {
+    color: white;
+	text-decoration:none;
+}
+
+nav a:hover {
+    color:lightpink;
+}
+
+#un img, #deux img, #trois img, #quatre img, #cinq img, #six img, #sept img, #huit img, #neuf img, #dix img, #onze img, #douze img {
+	width: 200px;
+	height: 150px;
+	border-radius: 10px;
+}
+
+#un {
+	float: left;
+	margin: 50px;
+	margin-left: 150px;
+	margin-top: 225px;
+	height: 300px;
+	width: 200px;
+	border:solid 3px;
+	border-radius: 10px;
+	color: white;
+	background-color: #944675;
+	text-align: left;
+}
+
+#deux, #trois, #quatre {  
+	float: left;
+	margin: 50px;
+	margin-top: 225px;
+	height: 300px;
+	width: 200px;
+	border:solid 3px;
+	border-radius: 10px;
+	color: white;
+	background-color: #944675;
+	text-align: left;
+}
+
+.prix {
+	color: lightpink;
+}
+
+#cinq {
+	float: left;
+	margin: 50px;
+	margin-top: 50px;
+	margin-left: 150px;
+	height: 300px;
+	width: 200px;
+	border:solid 3px;
+	border-radius: 10px;
+	color: white;
+	background-color: #944675;
+	text-align: left;
+}
+
+#six, #sept, #huit, #dix, #onze, #douze {
+	float: left;
+	margin: 50px;
+	margin-top: 50px;
+	height: 300px;
+	width: 200px;
+	border:solid 3px;
+	border-radius: 10px;
+	color: white;
+	background-color: #944675;
+	text-align: left;
+}
+
+#neuf {
+	float: left;
+	margin: 50px;
+	margin-top: 50px;
+	margin-left: 150px;
+	height: 300px;
+	width: 200px;
+	border:solid 3px;
+	border-radius: 10px;
+	color: white;
+	background-color:  #944675;
+	text-align: left;
+}
+
+button {
+	color:black;
+	background-color:rgb(201, 94, 147) ;
+	border-radius: 5px;
+	border:none;
+	box-shadow: rgb(0, 0, 0) 1px 1px 1px 2px;
+	height:20px;
+	margin-left:10px;
+
+}
+
+h4, p {
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#sept, #huit, #neuf, #onze, #douze {
+    text-align: left;
+}

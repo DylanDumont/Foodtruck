@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Site SAE 105</title>
+  <link rel="stylesheet" href="menu.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+	    <ul>
+		    <li> <a href="index.html">Accueil</a> </li>
+			<li> <a href="menu.html">Nos Menus</a> </li>
+			<li><img src="logo.png" alt="Mon logo"> </li>
+		    <li> <a href="où_nous_trouver.html">Où nous trouver</a> </li>
+		    <li> <a href="a_propos.html">A propos</a> </li>
+        </ul>
+	</header>
+
+	<nav>
+		<ul>
+			<li> <p><a href="menu.html">Plateaux</a> </li></p>
+			<li> <p><a href="entrées.html">Entrées</a> </li></p>
+			<li> <p><a href="sushis.html">Sushis</a> </li></p>
+			<li> <p><a href="makis.html">Makis</a> </li></p>
+			<li> <p><a href="sashimis.html">Sashimis</a> </li></p>
+			<li> <p><a href="originaux.html">Originaux</a> </li></p>
+			<li> <p><a href="desserts.html">Desserts</a> </li></p>
+			<li> <p><a href="boissons.html">Boissons</a> </li></p>
+		</ul>
+	</nav>
+
+        <div id="un">
+			<img src="Images/Plateaux/menu1.jpeg" alt="Menu1">
+			<h4> Menu 01 <button onclick="divText()">Composition</button> </h4>
+			<p>11 Pièces </p>
+			<p class="prix">12€ </p>
+		</div>
+
+		<div id="deux">
+			<img src="Images/Plateaux/menu2.jpeg" alt="Menu2">
+			<h4> Menu 02 <button onclick="divText2()">Composition</button> </h4>
+			<p>14 Pièces </p>
+			<p class="prix">15€ </p>
+		</div>
+
+		<div id="trois">
+			<img src="Images/Plateaux/menu3.jpeg" alt="Menu3">
+			<h4> Menu 03 <button onclick="divText3()">Composition</button> </h4>
+			<p>5 Pièces </p>
+			<p class="prix">8€ </p>
+		</div>
+
+		<div id="quatre">
+			<img src="Images/Plateaux/menu4.jpeg" alt="Menu4">
+			<h4> Menu 04 <button onclick="divText4()">Composition</button> </h4>
+			<p>12 Pièces </p>
+			<p class="prix">14€ </p>
+		</div>
+
+		<div id="cinq">
+			<img src="Images/Plateaux/menu5.jpeg" alt="Menu5">
+			<h4> Menu 05 <button onclick="divText5()">Composition</button> </h4>
+			<p>18 Pièces </p>
+			<p class="prix">14€ </p>
+		</div>
+
+		<div id="six">
+			<img src="Images/Plateaux/menu6.jpeg" alt="Menu6">
+			<h4> Menu 06 <button onclick="divText6()">Composition</button> </h4>
+			<p>18 Pièces </p>
+			<p class="prix">16€ </p>
+		</div>
+
+		<div id="sept">
+			<img src="Images/Plateaux/menu7.jpeg" alt="Menu7">
+			<h4> Menu 07 <button onclick="divText7()">Composition</button> </h4>
+			<p>18 Pièces </p>
+			<p class="prix">17€ </p>
+		</div>
+
+		<div id="huit">
+			<img src="Images/Plateaux/menu8.jpg" alt="Menu8">
+			<h4> Menu 08 <button onclick="divText8()">Composition</button> </h4>
+			<p>18 Pièces </p>
+			<p class="prix">18€ </p>
+		</div>
+
+		<script>
+			function divText() {
+			var vun=document.getElementById("un");
+			vun.innerHTML="<p>Liste des aliments du plateau: </p> <p> 1 Soupe <br/> 1 Salade <br/> 5 Sushis assortiment <br/> 6 Makis saumon";
+			}
+
+			function divText2() {
+				var vdeux=document.getElementById("deux");
+				vdeux.innerHTML="<p>Liste des aliments du plateau: </p> <p> 1 Soupe <br/> 1 Salade <br/> 8 Sushis saumon <br/> 6 California saumon avocat";
+			}
+
+			function divText3() {
+				var vtrois=document.getElementById("trois");
+				vtrois.innerHTML="<p>Liste des aliments du plateau: </p> <p> 1 Soupe <br/> 1 Salade <br/> 1 Riz <br/> 5 Sushis assortiment";
+			}
+
+			function divText4() {
+				var vquatre=document.getElementById("quatre");
+				vquatre.innerHTML="<p>Liste des aliments du plateau: </p> <p> 1 Soupe <br/> 1 Salade <br/> 1 Riz <br/> 6 California saumon avocat <br/> 6 Maki saumon";
+			}
+
+			function divText5() {
+				var vcinq=document.getElementById("cinq");
+				vcinq.innerHTML="<p>Liste des aliments du plateau: </p> <p> 1 Soupe <br/> 1 Salade <br/> 6 Maki saumon <br/> 6 Maki thon <br/> 6 California saumon avocat";
+			}
+
+			function divText6() {
+				var vsix=document.getElementById("six");
+				vsix.innerHTML="<p>Liste des aliments du plateau: </p> <p> 1 Soupe <br/> 1 Salade <br/> 6 California saumon avocat <br/> 6 California cheese avocat <br/> 6 California surimi avocat";
+			}
+
+			function divText7() {
+				var vsept=document.getElementById("sept");
+				vsept.innerHTML="<p>Liste des aliments du plateau: </p> <p> 1 Soupe <br/> 1 Salade <br/> 1 Riz <br/> 6 Sushi saumon <br/> 6 Maki saumon <br/> 6 Sashimi saumon";
+			}
+
+			function divText8() {
+				var vhuit=document.getElementById("huit");
+				vhuit.innerHTML="<p>Liste des aliments du plateau: </p> <p> 1 Soupe <br/> 1 Salade <br/> 1 Riz <br/> 3 Sushi saumon <br/> 9 Sashimi saumon <br/> 6 California saumon avocat";
+			}
+
+
+		</script>
+</body>
+</html>
+
